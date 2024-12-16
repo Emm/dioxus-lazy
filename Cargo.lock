@@ -255,7 +255,7 @@ dependencies = [
  "dioxus-history",
  "dioxus-hooks",
  "dioxus-html",
- "dioxus-logger 0.6.0",
+ "dioxus-logger",
  "dioxus-signals",
  "dioxus-web",
  "manganis",
@@ -475,7 +475,7 @@ version = "0.3.0"
 dependencies = [
  "console_error_panic_hook",
  "dioxus",
- "dioxus-logger 0.5.1",
+ "dioxus-logger",
  "dioxus-resize-observer",
  "dioxus-use-mounted",
  "futures",
@@ -498,18 +498,6 @@ dependencies = [
  "dioxus-html",
  "dioxus-rsx",
  "dioxus-signals",
-]
-
-[[package]]
-name = "dioxus-logger"
-version = "0.5.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "81fe09dc9773dc1f1bb0d38529203d6555d08f67aadca5cf955ac3d1a9e69880"
-dependencies = [
- "console_error_panic_hook",
- "tracing",
- "tracing-subscriber",
- "tracing-wasm",
 ]
 
 [[package]]
